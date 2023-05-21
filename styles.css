@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.background {
+    background-color: rgb(101, 65, 232);
+}
+
+.video-container {
+    width: 50%;
+    float: left;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.titulo-descripcion {
+    background-color: rgb(162, 138, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+#header {
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#header video {
+    display: block;
+    margin: 0 auto;
+}
+
+/*carrousel*/
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    /*ajusta la altura*/
+    position: relative;
+
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 1;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: 20%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carousel-caption h1 {
+    color: rgb(8, 8, 8);
+    position: absolute;
+    top: 40%;
+    left: 60%;
+
+}
+
+
+
+/*formulario*/
+.form-overlay {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    /*width:100% ;
+    height: 50%;*/
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.form-overlay form {
+    width: 120%;
+    /*ancho de formulario*/
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(117, 117, 239);
+    border-radius: 5px;
+    color: black;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: rgb(98, 85, 241);
+    /*ajusta el color de los iconos*/
+    font-size: 50px;
+    /*ajusta el tamaño de los iconos*/
+    margin: 0 10px;
+    /*ajusta el espaciado entre los iconos*/
+    padding-left: 48%;
+}
+
+footer {
+    background-color: rgb(162, 138, 249);
+    ;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+.world{
+    font-weight: bold;
+    color: rgb(74, 74, 245);
+}
